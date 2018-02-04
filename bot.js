@@ -12,7 +12,7 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
-    if (message.content.includes('pizza')) {
+    if (message.content.includes('pizza','Pizza')) {
     	message.channel.send('and i betta get it too');
   	}
 });
