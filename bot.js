@@ -12,6 +12,18 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
+    if (message.content.includes('rich from head office')) {
+        message.channel.send('print off a 10x10 picture of a giraffe and put it out front');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content.includes('ewok')) {
+        message.channel.send('jabba the hut');
+  	}
+});
+
+client.on('message', message => {
     if (message.content.includes('Pizza')) {
     	message.channel.send('and i betta get it too');
   	}
