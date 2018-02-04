@@ -12,7 +12,7 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
-    if (message.content === 'pizza') {
+    if (message.content.contains === 'pizza') {
     	message.channel.send('and i better get it too');
   	}
 });
