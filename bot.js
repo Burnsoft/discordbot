@@ -19,7 +19,7 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content.includes('ewok')) {
-        message.channel.send('jabba the hut');
+        message.channel.send('i am jabba the hut');
   	}
 });
 
