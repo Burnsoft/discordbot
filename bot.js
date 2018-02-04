@@ -12,14 +12,14 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
-    if (message.content.includes('pizza','Pizza')) {
+    if (message.content.includes('Pizza')) {
     	message.channel.send('and i betta get it too');
   	}
 });
 
 client.on('message', message => {
-    if (message.content === 'dad') {
-    	message.reply('DAD IS AWESOME!');
+    if (message.content.includes('pizza')) {
+    	message.reply('and I betta get it too');
   	}
 });
 // THIS  MUST  BE  THIS  WAY
